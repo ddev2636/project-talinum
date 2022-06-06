@@ -1,8 +1,12 @@
-import logo from "./logo.svg";
-import "./App.css";
 
+import React from "react";
+import Callcomp from "./pages/Callcomp";
 function App() {
-  return <div className="App">{/* Router */}</div>;
+  return( 
+  <>
+  <Callcomp/>
+  </>
+  )
 }
 
 export default App;
